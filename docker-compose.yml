@@ -1,7 +1,5 @@
 version: "3.7"
-
 services:
-
   nginx:
     image: nginx:1.19.5
     ports:
@@ -32,6 +30,7 @@ services:
       MARIADB_DATABASE: django
       MARIADB_USER: django
       MARIADB_PASSWORD: password1234
+
 
 networks:
   gis_4ban_network:
